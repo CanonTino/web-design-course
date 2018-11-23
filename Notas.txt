@@ -1,0 +1,15 @@
+Etiquetas h1,h2,h3...
+
+h1 debe ir en el header para mejorar el CEO
+
+<header><h1>Titulo importante>/h1></header>
+
+h1: La frase más importante
+h2: menor en importancia al h1
+así hasta el h5
+
+Esto es importante para el CEO. El valor es promediado, por ejemplo todos los h1 se veràn afectados según la cantidad. Es preferible tener sólo un h1.
+
+
+Etiqueta hgroup, de cara al seo usar uno solo, puede potenciar una etiqueta h2 agrupada a una h1. Sólo usar un hgroup de preferencia.
+
