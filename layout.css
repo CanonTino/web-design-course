@@ -23,6 +23,13 @@ default: static
 
 }
 
+.hijo2 {
+    width: 100px;
+    height: 100px;
+    background: green;
+    float: left;
+}
+
 .hijo1 {
     width: 50px;
     height: 50px;
@@ -32,14 +39,15 @@ default: static
     top: -10px;
     left: 100px;*/
     /*position: absolute;*/
-    position: fixed;
+    /*position: fixed;
     top: 0px;
-    left: 0px;
-
+    left: 0px;*/
+    display: inline-block;
 }
 
-.hijo2 {
-    width: 100px;
-    height: 100px;
-    background: green;
+.hijo3 {
+    width: 50px;
+    height: 50px;
+    background: blue;
+    clear: left;
 }
