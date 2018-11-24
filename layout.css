@@ -1,0 +1,13 @@
+p {
+    background: rgb(0,230,100, 0.3);
+    border: 2px solid black;
+    /*display 
+    none: se usa mucho en responsive desin: oculta el elemento
+    inline: los trata como una sola linea
+    inline-block: se ponen uno despues de otro. indispensable para el responsive design. Los considera como diferentes líneas.
+    block: se despliega utilizando el 100% del espacio disponible
+
+    por default: block
+    */
+    display: inline;
+}
