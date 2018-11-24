@@ -1,0 +1,59 @@
+/*Medida relativas*/
+body {
+    
+    font-size: 16px;/*Siempre pegado el valor y la unidad*/
+    
+}
+
+p.em {
+    font-size: 2em;/*em es la unidad de medida recomendada para texto*/
+}
+
+div p {
+    font-size: 2em; /*em multiplica el valor heredado. Se hereda 16px del body, esto se multiplica por dos*/
+}
+
+div p.rem{
+    font-size: 3rem;/*Al rem no le afecta el estilo heredado. Sólo toma el root, en este caso coindice con el tamaó en el body*/
+}
+
+p.ex {
+    font-size: 1ex;
+}
+
+/*Medidas absolutas*/
+p.in {
+    font-size: .3in
+}
+
+p.cm {
+    font-size: .7cm;
+}
+
+p.mm {
+    font-size: 4mm;
+}
+
+p.pt {
+    font-size: 10pt;
+}
+
+p.pc {
+    font-size: 2pc;
+}
+
+div {
+    background: red;
+}
+
+div.fija {
+    height: 100px;
+    width: 100px;
+}
+
+div.porcentual {
+    height: 100px;
+    width: 50%;
+    background: green;/*50% del padre*/
+    margin: 5%;
+}

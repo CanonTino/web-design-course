@@ -1,0 +1,82 @@
+/*elementoDentroDelBody {
+    propiedad : valor;
+    propiedad : valor;
+    propiedad : valor;
+    propiedad : valor;
+}*/
+/*selectores
+
+*/
+header h2 {/*especificar toda la ruta para un elemento en particular. Cualquier h2 dentro del header, no importa que esté dentro d eun div*/
+    color: blue;
+}
+h2,h3 { /*Con , separas diferentes selectores para reutilizar código*/
+    color: red;
+}
+
+/*selector elemento*/
+p {
+    color: brown;
+}
+
+/*Selector id*/
+p#azul { /* O bien sólo #azul*/
+    color: blue;
+}
+
+/*selector clase*/
+.prueba {
+    color: cornflowerblue;
+}
+.grande {
+    font-size: 20px;
+}
+
+/*Selector adyacente*/
+p+p{ /*a todo parrafo que tenga justo un parrafo antes y que sean hermanos(al mismo nivel), se le asigna el estilo*/
+    font-style: oblique;
+}
+
+/*Selector hijos*/
+div > p { /*Los parrafos que son hijos directos de un div*/
+    text-decoration-line: underline;
+}
+
+/*Selector hermanos menores*/
+p ~ p {
+    font-variant-caps: all-petite-caps;
+}
+/*Selector segun atributos*/
+h2[title] {/*Todos los elementos h2 que tengan un atributo 'title'*/
+    text-decoration-line: overline;
+}
+h2[title="main"] {/*Todos los elementos h2 que tengan un atributo 'title' con valor 'main'*/
+    font-variant-caps: all-petite-caps;
+}
+h2[title ~="cabecera"] {/*Todos los elementos h2 que tengan un atributo 'title' y que su valor contenga en cualquier parte 'cabecera'*/
+    color: black;
+}
+
+h3[lang |= "es"] {/*Todos los que inicien con 'es-'*/
+    color: yellow;
+}
+
+header {
+    background-color: aliceblue;
+    width: 100%;
+    height: 200px;
+    text-align: left;
+   
+}
+
+/*
+Colisión de estilos:
+1) CSS del navegador
+2) CSS del usuario
+3) archivos CSS enlazados en el orden añadidos (el del ultimo añadido)
+4) propiedades que se heredan de un estilo aplicado al elemento padre
+5) propiedades propias del elemento
+6) clases asignadas en el orden de asignación (el de la última)
+7) identificador
+8) propiedades tipo !important
+*/
