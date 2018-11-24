@@ -1,0 +1,10 @@
+div { /*Ancho total del elemento es de 162px: 
+    width=100, border-izquierdo=1 border-derecho=1 
+    margin-izquierdo = 20  margin-derecho=20
+    padding-izquierdo=10  padding-derecho=10*/
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 20px;/*Para cambiar posición con respecto a otros elementos*/
+    padding: 10px;/*Para agrandar el tamaño del elemento mismo.*/
+}
