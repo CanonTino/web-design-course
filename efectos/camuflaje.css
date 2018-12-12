@@ -31,3 +31,31 @@ div {
     left: -13px;
     
 }
+
+
+.triangulo-fijo{
+    -webkit-transform: translateX(0);
+    -webkit-transition-duration: 0.3s;
+}
+
+.triangulo-fijo::before{
+    content: '';
+    -webkit-transition-duration: 0.3s;
+    border-style: solid;
+    border-width: 0px 15px 15px 15px;
+    border-color: transparent transparent #a8cf45 transparent;
+ 
+    position: absolute;
+    top: 0px;
+    left:50%;
+    margin-left: -15px;
+}
+
+.triangulo-fijo:hover{
+    -webkit-transform: translateY(15px);
+}
+
+.triangulo-fijo:hover::before{
+    top: -13px;
+    
+}
