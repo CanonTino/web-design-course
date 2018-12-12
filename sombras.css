@@ -1,0 +1,37 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin: 50px;
+    text-align: center;
+    border: 1px solid blue;
+    /*Podemos poner múltiples sombras*/
+    box-shadow: 10px 10px 5px red,
+                -10px -10px 5px green;
+    /*box-shadow: inset 10px 20px 10px gray;*/
+}
+
+p{
+    position: relative;
+    top: 70px;
+    font-size: 20px;
+    color:white;
+    text-shadow: 0px 0px 5px blue;
+}
+
+div.efecto {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin: 50px;
+    text-align: center;
+    border: 1px solid blue;
+    /*Podemos poner múltiples sombras*/
+    box-shadow: 1px 1px 1px gray,
+                2px 2px 1px gray,
+                3px 3px 1px gray,
+                4px 4px 1px gray,
+                5px 5px 1px gray,
+                6px 6px 1px black,
+                7px 7px 1px black;
+}
