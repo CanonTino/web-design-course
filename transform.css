@@ -1,0 +1,23 @@
+div{
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    background: blueviolet;
+    border: 2px solid black;
+    /*transform: rotate(20deg);
+    transform-origin: bottom center;*/
+
+    /*transform: skew(20deg, 5deg);*/
+
+    /*transform: translate(100px);*/
+
+    /*transform: scale(0.8);*/
+    transition-property: all;
+    transition-duration: 4s;
+    transition-timing-function: ease-in-out;
+}
+
+div:hover{
+    transform: scaleY(0.5) skew(30deg);
+    background: gray;
+}
