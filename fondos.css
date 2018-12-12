@@ -1,0 +1,26 @@
+div {
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    border: 2px solid red;
+}
+
+.degradado {
+    background: -webkit-linear-gradient(
+        left,
+        blue 0%,
+        yellow 30%,
+        green 80%,
+        red 100%
+    );
+}
+
+.degradadoCircular {
+    background: -webkit-radial-gradient(
+        center,
+        blue 0%,
+        yellow 30%,
+        green 80%,
+        red 100%
+    );
+}
