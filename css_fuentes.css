@@ -1,0 +1,30 @@
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+span {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+p.text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+    text-decoration: line-through;
+    text-transform: capitalize;
+    font-variant: small-caps;
+    text-indent: 20px;
+    letter-spacing: 5px;
+    word-spacing: 20px;
+}
+
+p.text::first-letter{
+    font-size: 50px;
+}
+
+p.text::first-line{
+    font-size: 10px;
+}
