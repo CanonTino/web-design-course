@@ -1,0 +1,38 @@
+body {
+    background: orange;
+}
+
+div {
+    width: 80%;
+    height: 150px;
+    background: white;
+    margin: 10%;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        background: yellowgreen;
+    }
+}
+
+@media screen and (min-width: 767px){
+    body {
+        background: blueviolet;
+    }
+    div{
+        width: 40%;
+        margin: 4%;
+    }
+}
+
+@media screen and (min-width: 950px){
+    body {
+        background: blue;
+    }
+    div{
+        width: 28%;
+        margin: 2%;
+    }
+}
